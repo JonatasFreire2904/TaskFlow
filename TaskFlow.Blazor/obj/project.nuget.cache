@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UHdPg+py9Jc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jonat\\OneDrive\\Área de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Blazor\\TaskFlow.Blazor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jonat\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\9.0.9\\microsoft.aspnetcore.components.webassembly.authentication.9.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}

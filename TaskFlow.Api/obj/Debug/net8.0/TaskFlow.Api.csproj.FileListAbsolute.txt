@@ -1,0 +1,8 @@
+C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Api\obj\Debug\net8.0\TaskFlow.Api.csproj.AssemblyReference.cache
+C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Api\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Api\obj\Debug\net8.0\TaskFlow.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Api\obj\Debug\net8.0\TaskFlow.Api.AssemblyInfoInputs.cache
+C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Api\obj\Debug\net8.0\TaskFlow.Api.AssemblyInfo.cs
+C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Api\obj\Debug\net8.0\TaskFlow.Api.csproj.CoreCompileInputs.cache
+C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Api\obj\Debug\net8.0\TaskFlow.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Api\obj\Debug\net8.0\TaskFlow.Api.MvcApplicationPartsAssemblyInfo.cache

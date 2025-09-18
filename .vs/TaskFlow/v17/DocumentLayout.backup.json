@@ -1,0 +1,462 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2CE4D633-8810-4238-84EC-D80E031F21AB}|TaskFlow.Api\\TaskFlow.Api.csproj|c:\\users\\jonat\\onedrive\\\u00E1rea de trabalho\\projetos\\taskflow\\taskflow.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CE4D633-8810-4238-84EC-D80E031F21AB}|TaskFlow.Api\\TaskFlow.Api.csproj|solutionrelative:taskflow.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0ACC235-ABB2-41D9-92A8-0985CB9DC85E}|TaskFlow.Infrastructure\\TaskFlow.Infrastructure.csproj|c:\\users\\jonat\\onedrive\\\u00E1rea de trabalho\\projetos\\taskflow\\taskflow.infrastructure\\services\\subtaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0ACC235-ABB2-41D9-92A8-0985CB9DC85E}|TaskFlow.Infrastructure\\TaskFlow.Infrastructure.csproj|solutionrelative:taskflow.infrastructure\\services\\subtaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0ACC235-ABB2-41D9-92A8-0985CB9DC85E}|TaskFlow.Infrastructure\\TaskFlow.Infrastructure.csproj|c:\\users\\jonat\\onedrive\\\u00E1rea de trabalho\\projetos\\taskflow\\taskflow.infrastructure\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0ACC235-ABB2-41D9-92A8-0985CB9DC85E}|TaskFlow.Infrastructure\\TaskFlow.Infrastructure.csproj|solutionrelative:taskflow.infrastructure\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0ACC235-ABB2-41D9-92A8-0985CB9DC85E}|TaskFlow.Infrastructure\\TaskFlow.Infrastructure.csproj|c:\\users\\jonat\\onedrive\\\u00E1rea de trabalho\\projetos\\taskflow\\taskflow.infrastructure\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0ACC235-ABB2-41D9-92A8-0985CB9DC85E}|TaskFlow.Infrastructure\\TaskFlow.Infrastructure.csproj|solutionrelative:taskflow.infrastructure\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D55C01BB-642A-4529-8A63-6B33E726AC8C}|TaskFlow.Application\\TaskFlow.Application.csproj|c:\\users\\jonat\\onedrive\\\u00E1rea de trabalho\\projetos\\taskflow\\taskflow.application\\interfaces\\itarefaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D55C01BB-642A-4529-8A63-6B33E726AC8C}|TaskFlow.Application\\TaskFlow.Application.csproj|solutionrelative:taskflow.application\\interfaces\\itarefaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8491824C-9A66-4FEA-89E8-FB2D212E0E88}|TaskFlow.Domain\\TaskFlow.Domain.csproj|c:\\users\\jonat\\onedrive\\\u00E1rea de trabalho\\projetos\\taskflow\\taskflow.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8491824C-9A66-4FEA-89E8-FB2D212E0E88}|TaskFlow.Domain\\TaskFlow.Domain.csproj|solutionrelative:taskflow.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D55C01BB-642A-4529-8A63-6B33E726AC8C}|TaskFlow.Application\\TaskFlow.Application.csproj|c:\\users\\jonat\\onedrive\\\u00E1rea de trabalho\\projetos\\taskflow\\taskflow.application\\dtos\\userdtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D55C01BB-642A-4529-8A63-6B33E726AC8C}|TaskFlow.Application\\TaskFlow.Application.csproj|solutionrelative:taskflow.application\\dtos\\userdtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D55C01BB-642A-4529-8A63-6B33E726AC8C}|TaskFlow.Application\\TaskFlow.Application.csproj|c:\\users\\jonat\\onedrive\\\u00E1rea de trabalho\\projetos\\taskflow\\taskflow.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D55C01BB-642A-4529-8A63-6B33E726AC8C}|TaskFlow.Application\\TaskFlow.Application.csproj|solutionrelative:taskflow.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0ACC235-ABB2-41D9-92A8-0985CB9DC85E}|TaskFlow.Infrastructure\\TaskFlow.Infrastructure.csproj|c:\\users\\jonat\\onedrive\\\u00E1rea de trabalho\\projetos\\taskflow\\taskflow.infrastructure\\taskflow.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B0ACC235-ABB2-41D9-92A8-0985CB9DC85E}|TaskFlow.Infrastructure\\TaskFlow.Infrastructure.csproj|solutionrelative:taskflow.infrastructure\\taskflow.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D55C01BB-642A-4529-8A63-6B33E726AC8C}|TaskFlow.Application\\TaskFlow.Application.csproj|c:\\users\\jonat\\onedrive\\\u00E1rea de trabalho\\projetos\\taskflow\\taskflow.application\\interfaces\\isubtaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D55C01BB-642A-4529-8A63-6B33E726AC8C}|TaskFlow.Application\\TaskFlow.Application.csproj|solutionrelative:taskflow.application\\interfaces\\isubtaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D55C01BB-642A-4529-8A63-6B33E726AC8C}|TaskFlow.Application\\TaskFlow.Application.csproj|c:\\users\\jonat\\onedrive\\\u00E1rea de trabalho\\projetos\\taskflow\\taskflow.application\\interfaces\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D55C01BB-642A-4529-8A63-6B33E726AC8C}|TaskFlow.Application\\TaskFlow.Application.csproj|solutionrelative:taskflow.application\\interfaces\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D55C01BB-642A-4529-8A63-6B33E726AC8C}|TaskFlow.Application\\TaskFlow.Application.csproj|c:\\users\\jonat\\onedrive\\\u00E1rea de trabalho\\projetos\\taskflow\\taskflow.application\\taskflow.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D55C01BB-642A-4529-8A63-6B33E726AC8C}|TaskFlow.Application\\TaskFlow.Application.csproj|solutionrelative:taskflow.application\\taskflow.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D55C01BB-642A-4529-8A63-6B33E726AC8C}|TaskFlow.Application\\TaskFlow.Application.csproj|c:\\users\\jonat\\onedrive\\\u00E1rea de trabalho\\projetos\\taskflow\\taskflow.application\\dtos\\subtaskdto\\subtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D55C01BB-642A-4529-8A63-6B33E726AC8C}|TaskFlow.Application\\TaskFlow.Application.csproj|solutionrelative:taskflow.application\\dtos\\subtaskdto\\subtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D55C01BB-642A-4529-8A63-6B33E726AC8C}|TaskFlow.Application\\TaskFlow.Application.csproj|c:\\users\\jonat\\onedrive\\\u00E1rea de trabalho\\projetos\\taskflow\\taskflow.application\\dtos\\subtaskdto\\createsubtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D55C01BB-642A-4529-8A63-6B33E726AC8C}|TaskFlow.Application\\TaskFlow.Application.csproj|solutionrelative:taskflow.application\\dtos\\subtaskdto\\createsubtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D55C01BB-642A-4529-8A63-6B33E726AC8C}|TaskFlow.Application\\TaskFlow.Application.csproj|c:\\users\\jonat\\onedrive\\\u00E1rea de trabalho\\projetos\\taskflow\\taskflow.application\\dtos\\taskdtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D55C01BB-642A-4529-8A63-6B33E726AC8C}|TaskFlow.Application\\TaskFlow.Application.csproj|solutionrelative:taskflow.application\\dtos\\taskdtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D55C01BB-642A-4529-8A63-6B33E726AC8C}|TaskFlow.Application\\TaskFlow.Application.csproj|c:\\users\\jonat\\onedrive\\\u00E1rea de trabalho\\projetos\\taskflow\\taskflow.application\\dtos\\taskdtos\\createtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D55C01BB-642A-4529-8A63-6B33E726AC8C}|TaskFlow.Application\\TaskFlow.Application.csproj|solutionrelative:taskflow.application\\dtos\\taskdtos\\createtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D55C01BB-642A-4529-8A63-6B33E726AC8C}|TaskFlow.Application\\TaskFlow.Application.csproj|c:\\users\\jonat\\onedrive\\\u00E1rea de trabalho\\projetos\\taskflow\\taskflow.application\\dtos\\userdtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D55C01BB-642A-4529-8A63-6B33E726AC8C}|TaskFlow.Application\\TaskFlow.Application.csproj|solutionrelative:taskflow.application\\dtos\\userdtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D55C01BB-642A-4529-8A63-6B33E726AC8C}|TaskFlow.Application\\TaskFlow.Application.csproj|c:\\users\\jonat\\onedrive\\\u00E1rea de trabalho\\projetos\\taskflow\\taskflow.application\\dtos\\userdtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D55C01BB-642A-4529-8A63-6B33E726AC8C}|TaskFlow.Application\\TaskFlow.Application.csproj|solutionrelative:taskflow.application\\dtos\\userdtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CE4D633-8810-4238-84EC-D80E031F21AB}|TaskFlow.Api\\TaskFlow.Api.csproj|c:\\users\\jonat\\onedrive\\\u00E1rea de trabalho\\projetos\\taskflow\\taskflow.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2CE4D633-8810-4238-84EC-D80E031F21AB}|TaskFlow.Api\\TaskFlow.Api.csproj|solutionrelative:taskflow.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0ACC235-ABB2-41D9-92A8-0985CB9DC85E}|TaskFlow.Infrastructure\\TaskFlow.Infrastructure.csproj|c:\\users\\jonat\\onedrive\\\u00E1rea de trabalho\\projetos\\taskflow\\taskflow.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0ACC235-ABB2-41D9-92A8-0985CB9DC85E}|TaskFlow.Infrastructure\\TaskFlow.Infrastructure.csproj|solutionrelative:taskflow.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8491824C-9A66-4FEA-89E8-FB2D212E0E88}|TaskFlow.Domain\\TaskFlow.Domain.csproj|c:\\users\\jonat\\onedrive\\\u00E1rea de trabalho\\projetos\\taskflow\\taskflow.domain\\enums\\completionstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8491824C-9A66-4FEA-89E8-FB2D212E0E88}|TaskFlow.Domain\\TaskFlow.Domain.csproj|solutionrelative:taskflow.domain\\enums\\completionstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8491824C-9A66-4FEA-89E8-FB2D212E0E88}|TaskFlow.Domain\\TaskFlow.Domain.csproj|c:\\users\\jonat\\onedrive\\\u00E1rea de trabalho\\projetos\\taskflow\\taskflow.domain\\enums\\usertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8491824C-9A66-4FEA-89E8-FB2D212E0E88}|TaskFlow.Domain\\TaskFlow.Domain.csproj|solutionrelative:taskflow.domain\\enums\\usertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8491824C-9A66-4FEA-89E8-FB2D212E0E88}|TaskFlow.Domain\\TaskFlow.Domain.csproj|c:\\users\\jonat\\onedrive\\\u00E1rea de trabalho\\projetos\\taskflow\\taskflow.domain\\entities\\subtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8491824C-9A66-4FEA-89E8-FB2D212E0E88}|TaskFlow.Domain\\TaskFlow.Domain.csproj|solutionrelative:taskflow.domain\\entities\\subtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8491824C-9A66-4FEA-89E8-FB2D212E0E88}|TaskFlow.Domain\\TaskFlow.Domain.csproj|c:\\users\\jonat\\onedrive\\\u00E1rea de trabalho\\projetos\\taskflow\\taskflow.domain\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8491824C-9A66-4FEA-89E8-FB2D212E0E88}|TaskFlow.Domain\\TaskFlow.Domain.csproj|solutionrelative:taskflow.domain\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8491824C-9A66-4FEA-89E8-FB2D212E0E88}|TaskFlow.Domain\\TaskFlow.Domain.csproj|c:\\users\\jonat\\onedrive\\\u00E1rea de trabalho\\projetos\\taskflow\\taskflow.domain\\taskflow.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8491824C-9A66-4FEA-89E8-FB2D212E0E88}|TaskFlow.Domain\\TaskFlow.Domain.csproj|solutionrelative:taskflow.domain\\taskflow.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8491824C-9A66-4FEA-89E8-FB2D212E0E88}|TaskFlow.Domain\\TaskFlow.Domain.csproj|c:\\users\\jonat\\onedrive\\\u00E1rea de trabalho\\projetos\\taskflow\\taskflow.domain\\entities\\usertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8491824C-9A66-4FEA-89E8-FB2D212E0E88}|TaskFlow.Domain\\TaskFlow.Domain.csproj|solutionrelative:taskflow.domain\\entities\\usertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ITarefaService.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Application\\Interfaces\\ITarefaService.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Application\\Interfaces\\ITarefaService.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Application\\Interfaces\\ITarefaService.cs",
+              "RelativeToolTip": "TaskFlow.Application\\Interfaces\\ITarefaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T10:21:28.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SubTaskService.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Infrastructure\\Services\\SubTaskService.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Infrastructure\\Services\\SubTaskService.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Infrastructure\\Services\\SubTaskService.cs",
+              "RelativeToolTip": "TaskFlow.Infrastructure\\Services\\SubTaskService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAswDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T10:19:49.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Application\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Application\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Application\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "TaskFlow.Application\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T10:13:36.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Infrastructure\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Infrastructure\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Infrastructure\\Services\\UserService.cs",
+              "RelativeToolTip": "TaskFlow.Infrastructure\\Services\\UserService.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAqwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T10:19:34.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Infrastructure\\Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Infrastructure\\Services\\TaskService.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Infrastructure\\Services\\TaskService.cs",
+              "RelativeToolTip": "TaskFlow.Infrastructure\\Services\\TaskService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowBkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T10:19:40.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Api\\Program.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Api\\Program.cs",
+              "RelativeToolTip": "TaskFlow.Api\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T10:16:33.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ISubTaskService.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Application\\Interfaces\\ISubTaskService.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Application\\Interfaces\\ISubTaskService.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Application\\Interfaces\\ISubTaskService.cs",
+              "RelativeToolTip": "TaskFlow.Application\\Interfaces\\ISubTaskService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T10:13:48.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TaskFlow.Infrastructure",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Infrastructure\\TaskFlow.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "TaskFlow.Infrastructure\\TaskFlow.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Infrastructure\\TaskFlow.Infrastructure.csproj",
+              "RelativeToolTip": "TaskFlow.Infrastructure\\TaskFlow.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-18T09:58:20.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Application\\DTOs\\UserDtos\\UserDto.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Application\\DTOs\\UserDtos\\UserDto.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Application\\DTOs\\UserDtos\\UserDto.cs",
+              "RelativeToolTip": "TaskFlow.Application\\DTOs\\UserDtos\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T10:06:04.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "TaskFlow.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T09:54:43.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ITaskService.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Application\\Interfaces\\ITaskService.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Application\\Interfaces\\ITaskService.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Application\\Interfaces\\ITaskService.cs",
+              "RelativeToolTip": "TaskFlow.Application\\Interfaces\\ITaskService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T10:13:41.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TaskFlow.Application",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Application\\TaskFlow.Application.csproj",
+              "RelativeDocumentMoniker": "TaskFlow.Application\\TaskFlow.Application.csproj",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Application\\TaskFlow.Application.csproj",
+              "RelativeToolTip": "TaskFlow.Application\\TaskFlow.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-18T10:13:10.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SubTaskDto.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Application\\DTOs\\SubTaskDto\\SubTaskDto.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Application\\DTOs\\SubTaskDto\\SubTaskDto.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Application\\DTOs\\SubTaskDto\\SubTaskDto.cs",
+              "RelativeToolTip": "TaskFlow.Application\\DTOs\\SubTaskDto\\SubTaskDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T10:10:28.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateSubTaskDto.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Application\\DTOs\\SubTaskDto\\CreateSubTaskDto.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Application\\DTOs\\SubTaskDto\\CreateSubTaskDto.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Application\\DTOs\\SubTaskDto\\CreateSubTaskDto.cs",
+              "RelativeToolTip": "TaskFlow.Application\\DTOs\\SubTaskDto\\CreateSubTaskDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAACBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T10:10:12.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TaskDto.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Application\\DTOs\\TaskDtos\\TaskDto.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Application\\DTOs\\TaskDtos\\TaskDto.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Application\\DTOs\\TaskDtos\\TaskDto.cs",
+              "RelativeToolTip": "TaskFlow.Application\\DTOs\\TaskDtos\\TaskDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAACdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T10:07:50.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateTaskDto.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Application\\DTOs\\TaskDtos\\CreateTaskDto.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Application\\DTOs\\TaskDtos\\CreateTaskDto.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Application\\DTOs\\TaskDtos\\CreateTaskDto.cs",
+              "RelativeToolTip": "TaskFlow.Application\\DTOs\\TaskDtos\\CreateTaskDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T10:07:31.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Application\\DTOs\\UserDtos\\CreateUserDto.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Application\\DTOs\\UserDtos\\CreateUserDto.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Application\\DTOs\\UserDtos\\CreateUserDto.cs",
+              "RelativeToolTip": "TaskFlow.Application\\DTOs\\UserDtos\\CreateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T10:06:21.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserLoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Application\\DTOs\\UserDtos\\UserLoginDto.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Application\\DTOs\\UserDtos\\UserLoginDto.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Application\\DTOs\\UserDtos\\UserLoginDto.cs",
+              "RelativeToolTip": "TaskFlow.Application\\DTOs\\UserDtos\\UserLoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T10:05:47.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "TaskFlow.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Api\\appsettings.json",
+              "RelativeToolTip": "TaskFlow.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-18T09:59:26.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "TaskFlow.Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T09:58:37.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CompletionStatus.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Domain\\Enums\\CompletionStatus.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Domain\\Enums\\CompletionStatus.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Domain\\Enums\\CompletionStatus.cs",
+              "RelativeToolTip": "TaskFlow.Domain\\Enums\\CompletionStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T09:56:15.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserType.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Domain\\Enums\\UserType.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Domain\\Enums\\UserType.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Domain\\Enums\\UserType.cs",
+              "RelativeToolTip": "TaskFlow.Domain\\Enums\\UserType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T09:55:39.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SubTask.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Domain\\Entities\\SubTask.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Domain\\Entities\\SubTask.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Domain\\Entities\\SubTask.cs",
+              "RelativeToolTip": "TaskFlow.Domain\\Entities\\SubTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T09:54:57.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Domain\\Entities\\TaskItem.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Domain\\Entities\\TaskItem.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Domain\\Entities\\TaskItem.cs",
+              "RelativeToolTip": "TaskFlow.Domain\\Entities\\TaskItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T09:54:47.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TaskFlow.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Domain\\TaskFlow.Domain.csproj",
+              "RelativeDocumentMoniker": "TaskFlow.Domain\\TaskFlow.Domain.csproj",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Domain\\TaskFlow.Domain.csproj",
+              "RelativeToolTip": "TaskFlow.Domain\\TaskFlow.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-15T09:55:12.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserType.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Domain\\Entities\\UserType.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Domain\\Entities\\UserType.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\TaskFlow\\TaskFlow.Domain\\Entities\\UserType.cs",
+              "RelativeToolTip": "TaskFlow.Domain\\Entities\\UserType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T09:55:05.307Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

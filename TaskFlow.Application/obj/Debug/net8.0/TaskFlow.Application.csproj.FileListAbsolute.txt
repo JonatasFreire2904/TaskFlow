@@ -1,0 +1,15 @@
+C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Application\bin\Debug\net8.0\TaskFlow.Application.deps.json
+C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Application\bin\Debug\net8.0\TaskFlow.Application.dll
+C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Application\bin\Debug\net8.0\TaskFlow.Application.pdb
+C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Application\bin\Debug\net8.0\TaskFlow.Domain.dll
+C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Application\bin\Debug\net8.0\TaskFlow.Domain.pdb
+C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Application\obj\Debug\net8.0\TaskFlow.Application.csproj.AssemblyReference.cache
+C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Application\obj\Debug\net8.0\TaskFlow.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Application\obj\Debug\net8.0\TaskFlow.Application.AssemblyInfoInputs.cache
+C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Application\obj\Debug\net8.0\TaskFlow.Application.AssemblyInfo.cs
+C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Application\obj\Debug\net8.0\TaskFlow.Application.csproj.CoreCompileInputs.cache
+C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Application\obj\Debug\net8.0\TaskFlow.7EAD9043.Up2Date
+C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Application\obj\Debug\net8.0\TaskFlow.Application.dll
+C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Application\obj\Debug\net8.0\refint\TaskFlow.Application.dll
+C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Application\obj\Debug\net8.0\TaskFlow.Application.pdb
+C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Application\obj\Debug\net8.0\ref\TaskFlow.Application.dll
