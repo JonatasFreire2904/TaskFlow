@@ -31,7 +31,7 @@ namespace TaskFlow.Domain.Entities
 
         public CompletionStatus CompletionStatus { get; set; } = CompletionStatus.Pending;
 
-
+        public DateTime CreatedAt { get; set; }
         public DateTime? DueDate { get; set; }
     }
 }

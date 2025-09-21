@@ -1,11 +1,10 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using Microsoft.EntityFrameworkCore;
 using TaskFlow.Application.Interfaces;
 using TaskFlow.Infrastructure.Data;
 using TaskFlow.Infrastructure.Services;
-
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,32 +17,44 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Services (injeÁ„o de dependÍncia)
+// Services (inje√ß√£o de depend√™ncia)
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<ITaskService, TaskService>();
 builder.Services.AddScoped<ISubTaskService, SubTaskService>();
 
-// ConfiguraÁ„o de autenticaÁ„o JWT
+// Configura√ß√£o de autentica√ß√£o JWT
 var jwtKey = builder.Configuration["Jwt:Key"];
 var jwtIssuer = builder.Configuration["Jwt:Issuer"];
 var jwtAudience = builder.Configuration["Jwt:Audience"];
 
-object value = builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-    .AddJwtBearer(options =>
-    {
-        options.TokenValidationParameters = new TokenValidationParameters
+if (!string.IsNullOrWhiteSpace(jwtKey) && !string.IsNullOrWhiteSpace(jwtIssuer) && !string.IsNullOrWhiteSpace(jwtAudience))
+{
+    builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+        .AddJwtBearer(options =>
         {
-            ValidateIssuer = true,
-            ValidateAudience = true,
-            ValidateLifetime = true,
-            ValidateIssuerSigningKey = true,
-            ValidIssuer = jwtIssuer,
-            ValidAudience = jwtAudience,
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey!))
-        };
-    });
+            options.RequireHttpsMetadata = false; // em dev pode ficar false; em prod true
+            options.SaveToken = true;
+            options.TokenValidationParameters = new TokenValidationParameters
+            {
+                ValidateIssuer = true,
+                ValidateAudience = true,
+                ValidateLifetime = true,
+                ValidateIssuerSigningKey = true,
+                ValidIssuer = jwtIssuer,
+                ValidAudience = jwtAudience,
+                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey))
+            };
+        });
+}
 
 var app = builder.Build();
+
+// Faz o seed aqui, depois do app ter sido constru√≠do
+using (var scope = app.Services.CreateScope())
+{
+    var ctx = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    AppDbContextSeed.Seed(ctx);
+}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -54,8 +65,12 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-// habilitar autenticaÁ„o/autorizaÁ„o
-app.UseAuthentication();
+// habilitar autentica√ß√£o/autoriza√ß√£o (s√≥ se o servi√ßo de autentica√ß√£o foi registrado)
+if (!string.IsNullOrWhiteSpace(jwtKey) && !string.IsNullOrWhiteSpace(jwtIssuer) && !string.IsNullOrWhiteSpace(jwtAudience))
+{
+    app.UseAuthentication();
+}
+
 app.UseAuthorization();
 
 app.MapControllers();

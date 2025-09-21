@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Novo Perfil",
+    "Projects": [
+      {
+        "Path": "TaskFlow.Api\\TaskFlow.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "TaskFlow.Blazor\\TaskFlow.Blazor.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

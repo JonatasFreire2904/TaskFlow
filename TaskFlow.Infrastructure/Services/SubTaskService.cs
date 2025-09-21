@@ -23,12 +23,21 @@ namespace TaskFlow.Infrastructure.Services
 
         public async Task<SubTaskDto> CreateSubTaskAsync(CreateSubTaskDto dto, CancellationToken cancellationToken = default)
         {
-            // validações: Task e ResponsibleUser existem
-            var taskExists = await _context.Tasks.AnyAsync(t => t.Id == dto.TaskItemId, cancellationToken);
-            if (!taskExists) throw new KeyNotFoundException("Task pai não encontrada");
+            // valida: existe task
+            var taskEntity = await _context.Tasks.FirstOrDefaultAsync(t => t.Id == dto.TaskItemId, cancellationToken);
+            if (taskEntity == null) throw new KeyNotFoundException("Task pai não encontrada");
 
+            // valida: existe usuário responsável
             var userExists = await _context.Users.AnyAsync(u => u.Id == dto.ResponsibleUserId, cancellationToken);
             if (!userExists) throw new KeyNotFoundException("Usuário responsável não encontrado");
+
+            // valida dueDate (se informado) estar dentro do período da task pai
+            if (dto.DueDate.HasValue)
+            {
+                var due = dto.DueDate.Value;
+                if (due < taskEntity.StartDate || due > taskEntity.EndDate)
+                    throw new ArgumentException("DueDate da SubTask deve estar entre StartDate e EndDate da Task pai.");
+            }
 
             var sub = new SubTask
             {
@@ -38,20 +47,23 @@ namespace TaskFlow.Infrastructure.Services
                 TaskItemId = dto.TaskItemId,
                 ResponsibleUserId = dto.ResponsibleUserId,
                 CompletionStatus = CompletionStatus.Pending,
+                CreatedAt = DateTime.UtcNow,
                 DueDate = dto.DueDate
             };
 
             _context.SubTasks.Add(sub);
             await _context.SaveChangesAsync(cancellationToken);
 
-            return new SubTaskDto(sub.Id, sub.Name, sub.Description, sub.TaskItemId, sub.ResponsibleUserId, sub.CompletionStatus.ToString(), sub.DueDate);
+            return new SubTaskDto(sub.Id, sub.Name, sub.Description, sub.TaskItemId, sub.ResponsibleUserId, sub.CompletionStatus.ToString(), sub.DueDate, sub.CreatedAt);
         }
+
 
         public async Task<IEnumerable<SubTaskDto>> GetByTaskIdAsync(Guid taskId, CancellationToken cancellationToken = default)
         {
             return await _context.SubTasks
                 .Where(s => s.TaskItemId == taskId)
-                .Select(s => new SubTaskDto(s.Id, s.Name, s.Description, s.TaskItemId, s.ResponsibleUserId, s.CompletionStatus.ToString(), s.DueDate))
+                .Select(s => new SubTaskDto(
+                    s.Id, s.Name, s.Description, s.TaskItemId, s.ResponsibleUserId, s.CompletionStatus.ToString(), s.DueDate, s.CreatedAt))
                 .ToListAsync(cancellationToken);
         }
 
@@ -59,7 +71,7 @@ namespace TaskFlow.Infrastructure.Services
         {
             var s = await _context.SubTasks.FindAsync(new object[] { subTaskId }, cancellationToken);
             if (s == null) return null;
-            return new SubTaskDto(s.Id, s.Name, s.Description, s.TaskItemId, s.ResponsibleUserId, s.CompletionStatus.ToString(), s.DueDate);
+            return new SubTaskDto(s.Id, s.Name, s.Description, s.TaskItemId, s.ResponsibleUserId, s.CompletionStatus.ToString(), s.DueDate, s.CreatedAt);
         }
 
         public async Task CompleteSubTaskAsync(Guid subTaskId, Guid actorUserId, CancellationToken cancellationToken = default)

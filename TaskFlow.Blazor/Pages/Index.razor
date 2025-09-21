@@ -1,0 +1,39 @@
+@page "/"
+@using Microsoft.AspNetCore.Components.Web
+
+<PageTitle>Home - TaskFlow</PageTitle>
+
+<div class="text-center">
+    <h1 class="display-4">Bem-vindo ao TaskFlow</h1>
+    <p class="lead">Sistema de gerenciamento de tarefas</p>
+    
+    <div class="row mt-5">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Tarefas</h5>
+                    <p class="card-text">Gerencie suas tarefas de forma eficiente</p>
+                    <a href="/tasks" class="btn btn-primary">Ver Tarefas</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">SubTarefas</h5>
+                    <p class="card-text">Organize tarefas em subtarefas menores</p>
+                    <a href="/subtasks" class="btn btn-primary">Ver SubTarefas</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Relatórios</h5>
+                    <p class="card-text">Acompanhe seu progresso</p>
+                    <a href="/reports" class="btn btn-primary">Ver Relatórios</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
