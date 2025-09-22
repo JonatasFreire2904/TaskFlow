@@ -241,4 +241,3 @@ C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Api\bin\Deb
 C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

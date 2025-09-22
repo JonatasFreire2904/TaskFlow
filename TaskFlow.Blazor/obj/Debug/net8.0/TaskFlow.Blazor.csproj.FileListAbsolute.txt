@@ -1032,7 +1032,7 @@ C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Blazor\obj\
 C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Blazor\obj\Debug\net8.0\refint\TaskFlow.Blazor.dll
 C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Blazor\obj\Debug\net8.0\TaskFlow.Blazor.pdb
 C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Blazor\obj\Debug\net8.0\ref\TaskFlow.Blazor.dll
-C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Blazor\obj\Debug\net8.0\compressed\7kvif80qkz-lgwtna760c.gz
-C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Blazor\obj\Debug\net8.0\compressed\2ctte671l0-zn72tncln5.gz
-C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Blazor\obj\Debug\net8.0\compressed\r4t5tz2vyl-8sfa0sze5s.gz
 C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Blazor\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Blazor\obj\Debug\net8.0\compressed\7kvif80qkz-ru4gx89w9p.gz
+C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Blazor\obj\Debug\net8.0\compressed\2ctte671l0-odp17jmhdb.gz
+C:\Users\jonat\OneDrive\Área de Trabalho\Projetos\TaskFlow\TaskFlow.Blazor\obj\Debug\net8.0\compressed\r4t5tz2vyl-chalda9ghu.gz
